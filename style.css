@@ -1,0 +1,146 @@
+button{
+    width:80px;
+    height: 80px;
+    border-radius:50px;
+    border:none;
+    background-color: hsl(0,0%,15%);
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor:pointer;
+
+}
+#keys{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 25px;
+    gap:10px;
+}
+#caluclator{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    border-radius: 15px;
+    max-width:500px;
+    overflow: hidden;
+}
+#display{
+    width: 100%;
+    padding:20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0,0%,20%);
+    color: white;
+    
+
+}
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: rgb(0, 0, 50);
+}
+button:hover{
+    background-color: hsl(0,0%,40%);
+}
+button:active{
+    background-color: hsl(0,0%,50%);
+}
+.operator-btn{
+    background-color:hsl(35,100%,55%);
+}
+.operator-btn:hover{
+    background-color:hsl(35,100%,65%) ;
+}
+.operator-btn:active{
+    background-color:hsl(35,100%,75%) ;
+}
+@media screen and (min-width:330px) and (max-width:500px){
+    #caluclator{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: black;
+        border-radius: 15px;
+        max-width:310px;
+        overflow: hidden;
+    }  
+    button{
+        width:60px;
+        height: 60px;
+        border-radius:50px;
+        border:none;
+        background-color: hsl(0,0%,15%);
+        color:white;
+        font-size: 2rem;
+        font-weight: bold;
+        cursor:pointer;
+    
+    }
+    #keys{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 7px;
+        gap:7px;
+    }
+    
+
+}
+@media screen and (min-width:250px) and (max-width:330px){
+    #caluclator{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: black;
+        border-radius: 15px;
+        max-width:220px;
+        overflow: hidden;
+    }  
+    button{
+        width:40px;
+        height: 40px;
+        border-radius:50px;
+        border:none;
+        background-color: hsl(0,0%,15%);
+        color:white;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor:pointer;
+    
+    }
+    #keys{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 5px;
+        gap:5px;
+    }
+    @media screen and (min-width:500px) and (max-width:1024px){
+        #caluclator{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: black;
+            border-radius: 15px;
+            max-width:320px;
+            overflow: hidden;
+        }  
+        button{
+            width:50px;
+            height: 50px;
+            border-radius:50px;
+            border:none;
+            background-color: hsl(0,0%,15%);
+            color:white;
+            font-size: 2rem;
+            font-weight: bold;
+            cursor:pointer;
+        
+        }
+        #keys{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            padding: 5px;
+            gap:5px;
+        }
+        
+    
+    }
+    
+
+}
